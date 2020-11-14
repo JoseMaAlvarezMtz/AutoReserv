@@ -7,6 +7,33 @@
     android:background="@drawable/Iniciar_S"
     tools:context=".Login">
 
+    <Button
+        android:id="@+id/btn_enviar2"
+        android:layout_width="131dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="132dp"
+        android:background="@drawable/Rectángulo2"
+        android:text="Inicio"
+        android:textColor="@color/mr_cast_meta_default_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="137dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/Rectángulo2"
+        android:text="Enviar"
+        android:textColor="@color/mr_cast_meta_default_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_enviar2"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <EditText
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="wrap_content"
@@ -23,6 +50,7 @@
         app:layout_constraintHorizontal_bias="0.577"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -46,6 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/Rectángulo5"
         android:ems="10"
@@ -55,34 +84,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.607"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="160dp" />
-
-
-    <Button
-        android:id="@+id/btn_enviar2"
-        android:layout_width="131dp"
-        android:layout_height="51dp"
-        android:layout_marginBottom="180dp"
-        android:background="@drawable/Rectángulo2"
-        android:text="Inicio"
-        android:textColor="@color/mr_cast_meta_default_text_color"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.992"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn_enviar"
-        android:layout_width="137dp"
-        android:layout_height="52dp"
-        android:layout_marginBottom="188dp"
-        android:background="@drawable/Rectángulo2"
-        android:text="Enviar"
-        android:textColor="@color/mr_cast_meta_default_text_color"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -105,49 +107,61 @@
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Trazado5"
-        tools:layout_editor_absoluteX="-32dp"
-        tools:layout_editor_absoluteY="-71dp" />
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="262dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/Trazado5" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="150dp"
         android:layout_height="164dp"
-        app:srcCompat="@drawable/Trazado6"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="-80dp" />
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:srcCompat="@drawable/Trazado6" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Trazado7"
-        tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="-70dp" />
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:srcCompat="@drawable/Trazado7" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="322dp"
         android:layout_height="242dp"
-        app:srcCompat="@drawable/Trazado2"
-        tools:layout_editor_absoluteX="-53dp"
-        tools:layout_editor_absoluteY="564dp" />
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_enviar2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_enviar2"
+        app:srcCompat="@drawable/Trazado2" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Trazado1"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="522dp" />
+        android:layout_marginStart="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_enviar2"
+        app:srcCompat="@drawable/Trazado1" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
         android:layout_marginTop="104dp"
         android:background="@drawable/Registro"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="155dp" />
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Opciones"></activity>
+        <activity android:name=".Modificar_Cuenta"></activity>
+        <activity android:name=".Home_Client" />
+        <activity android:name=".Opciones" />
         <activity android:name=".Correo" />
         <activity android:name=".Recuperar" />
         <activity android:name=".Registro" />
