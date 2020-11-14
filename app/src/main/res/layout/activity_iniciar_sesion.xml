@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Iniciar_S"
+    tools:context=".Login">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Rectángulo1_login"
+        android:text="Button"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Trazado5"
+        tools:layout_editor_absoluteX="-32dp"
+        tools:layout_editor_absoluteY="-71dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="164dp"
+        app:srcCompat="@drawable/Trazado6"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="-80dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Trazado7"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="-70dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Trazado2"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Trazado1"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Elipse1_login"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Rectángulo1_login"
+        android:text="Button"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Olvidastetucontrasena"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

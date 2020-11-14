@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Iniciar_S"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/Rectángulo5"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/Rectángulo5"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/Rectángulo5"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="160dp" />
+
+
+    <Button
+        android:id="@+id/btn_enviar2"
+        android:layout_width="131dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/Rectángulo2"
+        android:text="Inicio"
+        android:textColor="@color/mr_cast_meta_default_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.992"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="137dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/Rectángulo2"
+        android:text="Enviar"
+        android:textColor="@color/mr_cast_meta_default_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/Rectángulo5"
+        android:ems="10"
+        android:hint="Edad"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Trazado5"
+        tools:layout_editor_absoluteX="-32dp"
+        tools:layout_editor_absoluteY="-71dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="164dp"
+        app:srcCompat="@drawable/Trazado6"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="-80dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Trazado7"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="-70dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="322dp"
+        android:layout_height="242dp"
+        app:srcCompat="@drawable/Trazado2"
+        tools:layout_editor_absoluteX="-53dp"
+        tools:layout_editor_absoluteY="564dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Trazado1"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/Registro"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="155dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
