@@ -8,7 +8,7 @@
     tools:context=".Opciones">
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btn_modif_cta"
         android:layout_width="280dp"
         android:layout_height="80dp"
         android:layout_marginTop="364dp"
@@ -19,7 +19,7 @@
         tools:layout_editor_absoluteX="79dp" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btn_elim_cta"
         android:layout_width="280dp"
         android:layout_height="80dp"
         android:layout_marginTop="484dp"
@@ -30,7 +30,7 @@
         tools:layout_editor_absoluteX="79dp" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn_cerrar_sesion"
         android:layout_width="280dp"
         android:layout_height="80dp"
         android:layout_marginTop="236dp"

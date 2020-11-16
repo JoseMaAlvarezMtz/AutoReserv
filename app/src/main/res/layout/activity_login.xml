@@ -8,11 +8,11 @@
     tools:context=".Login">
 
     <Button
-        android:id="@+id/btn_enviar2"
+        android:id="@+id/btn_inicio"
         android:layout_width="131dp"
         android:layout_height="51dp"
         android:background="@drawable/Rectángulo2"
-        android:text="Inicio"
+        android:text="@string/inicio"
         android:textColor="@color/mr_cast_meta_default_text_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,13 +35,13 @@
         app:layout_constraintVertical_bias="0.533" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/et_edad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="216dp"
         android:background="@drawable/Rectángulo5"
         android:ems="10"
-        android:hint="Correo"
+        android:hint="@string/Correo"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,13 +54,13 @@
         android:layout_height="wrap_content"
         android:background="@drawable/Rectángulo5"
         android:ems="10"
-        android:hint="Contraseña"
+        android:hint="@string/password"
         android:inputType="textPassword"
         android:paddingLeft="10dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_enviar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/et_edad"
         app:layout_constraintVertical_bias="0.495" />
 
 
@@ -69,7 +69,7 @@
         android:layout_width="223dp"
         android:layout_height="69dp"
         android:background="@drawable/Iniciarsesión"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/et_edad"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

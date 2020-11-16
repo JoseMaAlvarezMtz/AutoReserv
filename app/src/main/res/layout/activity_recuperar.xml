@@ -8,11 +8,11 @@
     tools:context=".Login">
 
     <Button
-        android:id="@+id/btn_enviar2"
+        android:id="@+id/btn_inicio"
         android:layout_width="131dp"
         android:layout_height="51dp"
         android:background="@drawable/Rectángulo2"
-        android:text="Inicio"
+        android:text="@string/inicio"
         android:textColor="@color/mr_cast_meta_default_text_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,7 +26,7 @@
         android:layout_width="137dp"
         android:layout_height="52dp"
         android:background="@drawable/Rectángulo2"
-        android:text="Enviar"
+        android:text="@string/enviar"
         android:textColor="@color/mr_cast_meta_default_text_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,14 +35,15 @@
         app:layout_constraintVertical_bias="0.533" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/et_edad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="216dp"
         android:background="@drawable/Rectángulo5"
         android:ems="10"
+        android:hint="@string/Correo"
         android:inputType="textPersonName"
-        android:paddingLeft="10dp"
+        android:paddingLeft="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -86,7 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_enviar2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_inicio"
         app:srcCompat="@drawable/Trazado2" />
 
     <ImageView
@@ -94,9 +95,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        app:layout_constraintEnd_toStartOf="@+id/btn_enviar2"
-        app:layout_constraintStart_toStartOf="@+id/btn_enviar2"
-        app:layout_constraintTop_toTopOf="@+id/btn_enviar2"
+        app:layout_constraintEnd_toStartOf="@+id/btn_inicio"
+        app:layout_constraintStart_toStartOf="@+id/btn_inicio"
+        app:layout_constraintTop_toTopOf="@+id/btn_inicio"
         app:srcCompat="@drawable/Trazado1" />
 
     <TextView
@@ -104,20 +105,11 @@
         android:layout_width="225dp"
         android:layout_height="47dp"
         android:background="@drawable/Recuperarcontraseña"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/et_edad"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.644" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
-    <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Recuperar">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

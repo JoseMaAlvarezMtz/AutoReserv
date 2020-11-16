@@ -4,7 +4,7 @@
     <string name = "Nombre">nombre</string>
     <string name = "apellido">Apellido</string>
     <string name = "edad">Edad</string>
-    <string name = "iniciar_sesion">Iniciar Sesion</string>
+    <string name = "iniciar_sesion">Iniciar Sesión</string>
     <string name = "password">Contraseña</string>
     <string name = "enviar">Enviar</string>
     <string name = "inicio">Inicio</string>
@@ -13,6 +13,15 @@
     <string name = "recup_pass">Recuperar Contraseña</string>
     <string name = "revisa">Revisa tu bandeja de entrada</string>
     <string name = "bienvenido">Bienvenido</string>
+    <string name="fecha_llegada">Fecha de llegada</string>
+    <string name="fecha_salida">Fecha de Salida</string>
+    <string name="Registrarse">Registrarse</string>
+
+
+    <string name="a_nombre">A nombre de</string>
+    <string name="detalles">Detalles de Reservación</string>
+    <string name="expandir">Expandir estadía</string>
+
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

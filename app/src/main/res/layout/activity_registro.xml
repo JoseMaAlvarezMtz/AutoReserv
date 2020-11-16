@@ -8,7 +8,7 @@
     tools:context=".Login">
 
     <Button
-        android:id="@+id/btn_enviar2"
+        android:id="@+id/btn_inicio"
         android:layout_width="131dp"
         android:layout_height="51dp"
         android:layout_marginBottom="132dp"
@@ -31,12 +31,12 @@
         android:textColor="@color/mr_cast_meta_default_text_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_enviar2"
+        app:layout_constraintEnd_toStartOf="@+id/btn_inicio"
         app:layout_constraintHorizontal_bias="0.981"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/et_correo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -44,16 +44,16 @@
         android:layout_marginEnd="20dp"
         android:background="@drawable/Rectángulo5"
         android:ems="10"
-        android:hint="Correo"
+        android:hint="@string/Correo"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/et_edad" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/et_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -67,10 +67,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/et_edad" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/et_apellido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -84,10 +84,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/et_nombre" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/et_nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -104,7 +104,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/et_edad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -112,13 +112,13 @@
         android:layout_marginEnd="16dp"
         android:background="@drawable/Rectángulo5"
         android:ems="10"
-        android:hint="Edad"
+        android:hint="@string/edad"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/et_apellido" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -158,8 +158,8 @@
         android:layout_height="242dp"
         android:layout_marginTop="13dp"
         android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/btn_enviar2"
-        app:layout_constraintTop_toBottomOf="@+id/btn_enviar2"
+        app:layout_constraintEnd_toStartOf="@+id/btn_inicio"
+        app:layout_constraintTop_toBottomOf="@+id/btn_inicio"
         app:srcCompat="@drawable/Trazado2" />
 
     <ImageView
@@ -168,7 +168,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="45dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btn_enviar2"
+        app:layout_constraintTop_toTopOf="@+id/btn_inicio"
         app:srcCompat="@drawable/Trazado1" />
 
     <TextView
