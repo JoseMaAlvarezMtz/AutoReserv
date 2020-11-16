@@ -1,5 +1,19 @@
 <resources>
     <string name="app_name">AutoReserv</string>
+    <string name="Correo">correo</string>
+    <string name = "Nombre">nombre</string>
+    <string name = "apellido">Apellido</string>
+    <string name = "edad">Edad</string>
+    <string name = "iniciar_sesion">Iniciar Sesion</string>
+    <string name = "password">Contraseña</string>
+    <string name = "enviar">Enviar</string>
+    <string name = "inicio">Inicio</string>
+    <string name = "registro">Registro</string>
+    <string name = "olvid_pass">¿Olvidaste tu contraseña?</string>
+    <string name = "recup_pass">Recuperar Contraseña</string>
+    <string name = "revisa">Revisa tu bandeja de entrada</string>
+    <string name = "bienvenido">Bienvenido</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
